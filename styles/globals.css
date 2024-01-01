@@ -2,10 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-body {
-  font-family: "Inter", sans-serif;
-}
-
 @layer utilities {
   .flex-center {
     @apply flex justify-center items-center;
@@ -20,7 +16,7 @@ body {
   }
 
   .btn {
-    @apply bg-black font-sans text-white px-8 py-3
+    @apply bg-black font-sans text-[16px] text-white px-8 py-3
     rounded-full !important;
   }
 }
