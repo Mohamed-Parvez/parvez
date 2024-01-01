@@ -1,9 +1,7 @@
 import type { Metadata } from "next";
-import { Inter } from "next/font/google";
-import "./globals.css";
+import "../styles/globals.css";
 import Nav from "./Nav";
-
-const inter = Inter({ subsets: ["latin"] });
+import React from "react";
 
 export const metadata: Metadata = {
   title: "Parvez",
@@ -17,7 +15,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={inter.className}>
+      <body>
         <Nav />
         <main>{children}</main>
       </body>
