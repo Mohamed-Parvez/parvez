@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import "../styles/globals.css";
 import Nav from "./Nav";
 import React from "react";
+import Footer from "./Footer";
 
 export const metadata: Metadata = {
   title: "Parvez",
@@ -18,6 +19,7 @@ export default function RootLayout({
       <body>
         <Nav />
         <main>{children}</main>
+        <Footer />
       </body>
     </html>
   );

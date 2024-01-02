@@ -6,12 +6,13 @@ interface Props {
   alt: string;
   height: number;
   width: number;
+  classname: string;
 }
 
-const ImageComponent = ({ src, alt, height, width }: Props) => {
+const ImageComponent = ({ src, alt, height, width, classname }: Props) => {
   return (
     <div>
-      <Image src={src} alt={alt} height={height} width={width} />
+      <Image src={src} alt={alt} height={height} width={width} className={classname} />
     </div>
   );
 };
