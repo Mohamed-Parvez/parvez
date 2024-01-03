@@ -5,12 +5,13 @@ import Image from "next/image";
 
 const Nav = () => {
   return (
-    <nav className="flex-between m-3 max-w-[1440px] 2xl:m-3 2xl:mx-auto">
+    <nav className="flex-between m-3 max-h-[50px] max-w-[1440px] overflow-hidden 2xl:m-3 2xl:mx-auto">
       <Image
+        className="ml-[-18px]"
         src={"/assets/images/logo_1.png"}
         alt="logo"
-        height={79}
-        width={29}
+        height={29}
+        width={150}
       />
       <div className="md:flex-between gap-7 text-[16px]">
         <div className="hidden md:block">
