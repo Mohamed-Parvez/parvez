@@ -13,12 +13,14 @@ const Nav = () => {
         height={29}
         width={150}
       />
-      <div className="md:flex-between gap-7 text-[16px]">
+      <div className="md:flex-between gap-7">
         <div className="hidden md:block">
           <ul className="flex-between gap-7 font-sans">
             {NavProperties.map((data) => (
               <Link key={data.key} href={data.href}>
-                <li>{data.label}</li>
+                <li>
+                  {data.label}
+                </li>
               </Link>
             ))}
           </ul>
