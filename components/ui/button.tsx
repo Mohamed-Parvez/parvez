@@ -1,12 +1,7 @@
 import React from "react";
+import { ButtonProps } from "@/types";
 
-interface Props {
-  label: string;
-  variant: string;
-  type: "button";
-}
-
-const Button = ({ label, type, variant }: Props) => {
+const Button = ({ label, type, variant }: ButtonProps) => {
   return (
     <button type={type} className={`${variant}`}>
       {label}
