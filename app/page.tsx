@@ -4,7 +4,6 @@ import Products from "@/components/sections/Products";
 import Projects from "@/components/sections/Projects";
 import Services from "@/components/sections/Services";
 
-
 export default function Home() {
   return (
     <>

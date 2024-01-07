@@ -16,8 +16,8 @@
   }
 
   .btn {
-    @apply bg-black font-sans text-[16px] text-white px-8 py-3
-    rounded-full !important;
+    @apply bg-Black font-Sans text-[16px] font-normal text-White px-9 py-[12px]
+    rounded-full  !important;
   }
 }
 
