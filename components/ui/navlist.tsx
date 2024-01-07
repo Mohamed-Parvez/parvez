@@ -5,9 +5,13 @@ import React from "react";
 const Navlist = () => {
   return (
     <div className="hidden md:block">
-      <ul className="flex-between gap-7 font-Sans">
+      <ul className="flex-between gap-5">
         {NavProperties.map((data) => (
-          <Link key={data.key} href={data.href}>
+          <Link
+            key={data.key}
+            href={data.href}
+            className="w-20 p-1 text-center font-Sans hover:font-bold"
+          >
             <li>{data.label}</li>
           </Link>
         ))}
