@@ -18,7 +18,7 @@
   .btn {
     @apply bg-Black font-Sans text-[16px] font-normal text-White px-6 py-[12px] rounded-full
     hover:bg-White hover:text-Black hover:ring-Black hover:ring-1 hover:ring-opacity-60 
-    hover:font-bold w-[140px] !important;
+    w-[140px] transition-colors duration-300 ease-in-out !important;
   }
 }
 
