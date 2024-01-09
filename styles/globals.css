@@ -16,9 +16,14 @@
   }
 
   .btn {
-    @apply bg-Black font-Sans text-[16px] font-normal text-White px-6 py-[12px] rounded-full
+    @apply bg-Black font-Sans text-[16px] font-normal text-Grey px-6 py-[12px] rounded-full
     hover:bg-White hover:text-Black hover:ring-Black hover:ring-1 hover:ring-opacity-60 
     w-[140px] transition-colors duration-300 ease-in-out !important;
+  }
+
+  .primary-gradient {
+    @apply bg-gradient-to-r from-Amber_500 via-Orange_600 
+    to-Yellow_500 bg-clip-text text-transparent;
   }
 }
 
