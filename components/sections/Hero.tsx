@@ -42,9 +42,9 @@ const Hero = () => {
         </div>
       </div>
 
-      <div className="flex-center mt-5 gap-2">
-        <Button label="Resume" variant={"btn"} type={"button"} href="" />
-        <Button label="Github" variant={"btn"} type={"button"} href="" />
+      <div className="flex-center mt-5 h-auto w-auto gap-3">
+        <Button label="Resume" variant={"btn-resume"} type={"button"} href="" />
+        <Button label="Github" variant={"btn-github"} type={"button"} href="" />
       </div>
     </div>
   );

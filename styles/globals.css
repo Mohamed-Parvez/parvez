@@ -21,6 +21,18 @@
     w-[140px] transition-colors duration-300 ease-in-out !important;
   }
 
+  .btn-resume {
+    @apply bg-White font-Sans text-[14px] font-normal text-Black px-4 py-[9px] rounded-full
+    hover:bg-Black hover:text-Grey ring-Black ring-1 ring-opacity-60 
+    w-[110px] transition-colors duration-300 ease-in-out !important;
+  }
+
+  .btn-github {
+    @apply bg-Black font-Sans text-[14px] font-normal text-Grey px-5 py-[10px] rounded-full
+    hover:bg-White hover:text-Black hover:ring-Black hover:ring-1 hover:ring-opacity-60 
+    w-[135px] transition-colors duration-300 ease-in-out !important;
+  }
+
   .primary-gradient {
     @apply bg-gradient-to-r from-Amber_500 via-Orange_600 
     to-Yellow_500 bg-clip-text text-transparent;
