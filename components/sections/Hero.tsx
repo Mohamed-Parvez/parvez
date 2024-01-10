@@ -31,10 +31,10 @@ const Hero = () => {
           <span className="primary-gradient">I am Parvez</span>
         </h1>
 
-        <div className="m-3 h-auto w-auto max-w-[380px] md:w-[400px] lg:w-[500px]">
+        <div className="m-3 h-auto w-auto max-w-[380px] md:max-w-[500px]">
           <h2
             className="mt-5 text-center font-Sans text-[15px] font-medium
-           text-Grey_700 md:text-[16px] lg:text-[17px]"
+           text-Grey_700 md:text-lg lg:text-xl"
           >
             Web Developer for over past 2 Years and made Unique Websites using
             Advanced Web Tools
