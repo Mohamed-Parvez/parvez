@@ -22,7 +22,7 @@ const Hero = () => {
         />
       </div>
 
-      <div className="mt-5 flex-col items-center justify-center">
+      <div className="mt-4 flex-col items-center justify-center">
         <h1
           className="gap-2 text-center font-Sans text-4xl font-extrabold 
         leading-[1.4] md:text-5xl md:leading-[1.4] lg:text-6xl lg:leading-[1.4]"
@@ -31,9 +31,9 @@ const Hero = () => {
           <span className="primary-gradient">I am Parvez</span>
         </h1>
 
-        <div className="m-3 h-auto w-auto max-w-[380px] md:max-w-[500px]">
+        <div className="m-3 mt-4 h-auto w-auto max-w-[380px] md:max-w-[500px]">
           <h2
-            className="mt-5 text-center font-Sans text-[15px] font-medium
+            className="mt-4 text-center font-Sans text-[15px] font-medium
            text-Grey_700 md:text-lg lg:text-xl"
           >
             Web Developer for over past 2 Years and made Unique Websites using
@@ -42,7 +42,7 @@ const Hero = () => {
         </div>
       </div>
 
-      <div className="flex-center mt-5 h-auto w-auto gap-3">
+      <div className="flex-center mt-4 h-auto w-auto gap-3">
         <Button label="Resume" variant={"btn-resume"} type={"button"} href="" />
         <Button label="Github" variant={"btn-github"} type={"button"} href="" />
       </div>
