@@ -27,7 +27,8 @@ const Hero = () => {
           className="gap-2 text-center font-Sans text-4xl font-extrabold 
         leading-[1.4] md:text-5xl md:leading-[1.4] lg:text-6xl lg:leading-[1.4]"
         >
-          Hey, Hi There ! <br />
+          Hey, Hi There !
+          <br />
           <span className="primary-gradient">I am Parvez</span>
         </h1>
 

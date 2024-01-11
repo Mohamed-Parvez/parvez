@@ -37,6 +37,12 @@
     @apply bg-gradient-to-r from-Amber_500 via-Orange_600 
     to-Yellow_500 bg-clip-text text-transparent;
   }
+
+  .secondary-gradient {
+    @apply bg-gradient-to-r from-Purple_600
+    to-Pink_600 bg-clip-text text-transparent;
+  }
+
 }
 
 /* Hide scrollbar for Chrome, Safari and Opera */
