@@ -4,7 +4,7 @@ import Button from "../ui/button";
 
 const Hero = () => {
   return (
-    <div id="hero" className="flex-center mt-16 flex-col pb-96">
+    <div id="hero" className="flex-center mt-16 flex-col">
       <div
         // eslint-disable-next-line tailwindcss/migration-from-tailwind-2
         className="flex-center mx-3 h-auto w-auto cursor-pointer gap-1.5 text-wrap
@@ -28,9 +28,9 @@ const Hero = () => {
         leading-[1.4] md:text-5xl md:leading-[1.4] lg:text-6xl lg:leading-[1.4] 
         xl:text-7xl xl:leading-[90px]"
         >
-          Hey, Hi There !
+          HEY, HI THERE !
           <br />
-          <span className="primary-gradient">I am Parvez</span>
+          <span className="secondary-gradient">I AM PARVEZ</span>
         </h1>
 
         <div className="m-3 mt-4 h-auto w-auto max-w-[380px] md:max-w-[500px] lg:mt-8">

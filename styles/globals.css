@@ -12,7 +12,7 @@
   }
 
   .flex-start {
-    @apply flex justify-start items-center;
+    @apply flex justify-start items-start;
   }
 
   .btn {
