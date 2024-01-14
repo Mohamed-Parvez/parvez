@@ -5,8 +5,8 @@ import Navlist from "../ui/navlist";
 const Nav = () => {
   return (
     <nav
-      className="flex-between m-3 h-auto max-h-[50px] w-auto
-      max-w-[1440px] px-2 2xl:m-3 2xl:mx-auto"
+      className="flex-between fixed top-0 z-50 h-auto
+      max-h-[50px] w-full max-w-[1440px] p-3 2xl:mx-auto"
     >
       <Logo />
       <div className="md:flex-between gap-7">
