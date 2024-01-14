@@ -6,12 +6,11 @@ const Hero = () => {
   return (
     <div id="hero" className="flex-center mt-16 flex-col">
       <div
-        // eslint-disable-next-line tailwindcss/migration-from-tailwind-2
-        className="flex-center mx-3 h-auto w-auto cursor-pointer gap-1.5 text-wrap
-        rounded-full border border-Grey px-5 py-2 transition-colors duration-300 ease-in-out
-      hover:border-Light_Black hover:border-opacity-20 hover:bg-Grey hover:bg-opacity-30 lg:w-[420px]"
+        className="flex-center h-auto w-auto cursor-pointer gap-1.5
+        rounded-full border border-grey px-5 py-2 transition-colors duration-300 ease-in-out
+      hover:border-grey-700/20 hover:bg-grey/30 lg:w-[420px]"
       >
-        <p className="text-center font-Sans text-[14px] font-bold text-Grey_700">
+        <p className="small-regular text-center text-grey-700">
           Project Ideas and Products Developed by Parvez
         </p>
         <Image
@@ -24,19 +23,18 @@ const Hero = () => {
 
       <div className="mt-4 flex-col items-center justify-center lg:mt-8">
         <h1
-          className="gap-2 text-center font-Sans text-4xl font-extrabold 
-        leading-[1.4] md:text-5xl md:leading-[1.4] lg:text-6xl lg:leading-[1.4] 
-        xl:text-7xl xl:leading-[90px]"
+          className="heading3 md:heading2 lg:heading1 gap-2 text-center
+          xl:text-7xl xl:leading-[90px]"
         >
           HEY, HI THERE !
           <br />
-          <span className="secondary-gradient">I AM PARVEZ</span>
+          <span className="primary-gradient">I AM PARVEZ</span>
         </h1>
 
-        <div className="m-3 mt-4 h-auto w-auto max-w-[380px] md:max-w-[500px] lg:mt-8">
+        <div className="mt-4 h-auto w-auto max-w-[380px] md:max-w-[500px] lg:mt-8">
           <h2
-            className="mt-4 text-center font-Sans text-[15px] font-medium text-Grey_700
-           md:text-lg lg:mt-8 lg:text-xl"
+            className="body-medium lg:paragraph-regular mt-4 text-center
+           text-grey-700 md:text-lg lg:mt-8"
           >
             Web Developer for over past 2 Years and made Unique Websites using
             Advanced Web Tools

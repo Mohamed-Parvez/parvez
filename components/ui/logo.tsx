@@ -7,7 +7,7 @@ const Logo = () => {
     <>
       <Link href={"#hero"}>
         <Image
-          className="pt-[15px] "
+          className="pt-[15px]"
           src={"/assets/images/logo.svg"}
           alt="logo"
           height={30}

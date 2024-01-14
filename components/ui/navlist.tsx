@@ -10,7 +10,8 @@ const Navlist = () => {
           <Link
             key={data.key}
             href={data.href}
-            className="w-20 p-1 text-center font-Sans text-Grey_700 hover:font-bold"
+            className="body-text hover:body-semibold w-20 p-1 text-center
+            text-grey-700"
           >
             <li>{data.label}</li>
           </Link>

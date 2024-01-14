@@ -16,16 +16,8 @@ const config: Config = {
       "2xl": "1440px",
       "3xl": "1700px",
     },
-    container: {
-      center: true,
-      padding: "2rem",
-      screens: {
-        "2xl": "1400px",
-      },
-    },
     extend: {
       fontFamily: {
-        Sans: ["sans"],
         poppins: ["Poppins", "sans-serif"],
         inter: ["Inter", "sans-serif"],
       },
