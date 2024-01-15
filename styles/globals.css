@@ -103,6 +103,12 @@
     @apply bg-gradient-to-r from-primary-purple
     to-primary-pink bg-clip-text text-transparent;
   }
+
+  .light-primary-gradient {
+    @apply bg-gradient-to-r from-purple-500
+    to-pink-500 bg-clip-text text-transparent;
+  }
+
   .secondary-gradient {
     @apply bg-gradient-to-r from-amber-500 via-orange-600
     to-yellow-500 bg-clip-text text-transparent;

@@ -8,10 +8,10 @@ const Contact = () => {
     >
       <div>
         <h1
-          className="primary-gradient 
+          className="light-primary-gradient 
           text-center text-[36px] font-normal
           tracking-[-0.25%] xs:text-[52px]
-          md:text-[78px] lg:text-9xl lg:font-normal"
+          md:text-[78px] lg:text-[120px] lg:font-normal"
         >
           CONTACT
         </h1>
