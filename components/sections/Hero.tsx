@@ -23,7 +23,7 @@ const Hero = () => {
 
       <div className="mt-4 flex-col items-center justify-center lg:mt-8">
         <h1
-          className="heading3 md:heading2 lg:heading1 gap-2 text-center
+          className="heading3 xs:heading2 sm:heading1 gap-2 text-center
           xl:text-7xl xl:leading-[90px]"
         >
           HEY, HI THERE !
