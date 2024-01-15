@@ -26,7 +26,7 @@
   }
 
   .body-text {
-    @apply text-[16px] leading-[22px] font-normal;
+    @apply text-[16px] leading-[30px] font-normal;
   }
 
   .body-regular {
@@ -58,7 +58,7 @@
   }
 
   .paragraph-regular {
-    @apply text-[20px] font-normal leading-[26px];
+    @apply text-[20px] font-normal leading-[36px];
   }
 
   .paragraph-semibold {
@@ -82,19 +82,19 @@
   }
 
   .btn {
-    @apply bg-black body-text text-grey px-6 py-[12px] rounded-full
+    @apply bg-black body-text text-grey px-6 py-[8px] rounded-full
     hover:bg-white hover:text-black hover:ring-black hover:ring-1 hover:ring-opacity-60 
     w-[140px] transition-colors duration-300 ease-in-out !important;
   }
 
   .btn-resume {
-    @apply bg-white body-text text-black px-4 py-[9px] rounded-full
+    @apply bg-white body-text text-black px-4 py-[8px] rounded-full
     hover:bg-black hover:text-grey ring-black ring-1 ring-opacity-60 
     w-[110px] transition-colors duration-300 ease-in-out !important;
   }
 
   .btn-github {
-    @apply bg-black body-text text-grey px-5 py-[10px] rounded-full
+    @apply bg-black body-text text-grey px-5 py-[8px] rounded-full
     hover:bg-white hover:text-black hover:ring-black hover:ring-1 hover:ring-opacity-60 
     w-[135px] transition-colors duration-300 ease-in-out !important;
   }
