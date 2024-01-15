@@ -4,19 +4,21 @@ const About = () => {
   return (
     <section
       id="about"
-      className="flex-center mx-auto mb-36 mt-24 max-w-[1440px] flex-col gap-6 2xl:mx-auto"
+      className="flex-center mx-auto mb-36 mt-20 max-w-[1440px] flex-col gap-4 md:mt-28 lg:gap-8 2xl:mx-auto"
     >
       <div>
         <h1
-          className="primary-gradient heading2 md:heading1
-          text-center lg:text-9xl lg:font-normal"
+          className="primary-gradient 
+          text-center text-[36px] font-normal
+          tracking-[-0.25%] xs:text-[52px]
+          md:text-[78px] lg:text-9xl lg:font-normal"
         >
           ABOUT ME
         </h1>
       </div>
 
       <div
-        className="flex-center md:flex-start mt-[32px]
+        className="flex-center md:flex-start 
       h-auto max-w-[1440px] flex-col gap-6 md:flex-row md:gap-12"
       >
         <div
