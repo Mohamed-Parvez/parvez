@@ -99,6 +99,12 @@
     w-[135px] transition-colors duration-300 ease-in-out !important;
   }
 
+  .send-message-btn {
+    @apply bg-black body-text text-grey px-6 py-[10px] rounded-full mt-10
+    hover:bg-white hover:text-black hover:ring-black hover:ring-1 hover:ring-opacity-60 
+    w-[170px] transition-colors duration-300 ease-in-out !important;
+  }
+
   .primary-gradient {
     @apply bg-gradient-to-r from-primary-purple
     to-primary-pink bg-clip-text text-transparent;
