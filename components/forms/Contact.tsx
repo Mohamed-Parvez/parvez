@@ -1,5 +1,6 @@
 import React from "react";
 import Button from "../ui/button";
+import LinkLogo from "../ui/linklogo";
 
 const Contact = () => {
   return (
@@ -58,15 +59,7 @@ const Contact = () => {
           </div>
           <div className="flex-start max-w-[286px] flex-col gap-4">
             <p className="base-bold text-black">Digital Link</p>
-            <div>
-              <p>Github</p>
-            </div>
-            <div>
-              <p>LinkedIn</p>
-            </div>
-            <div>
-              <p>X</p>
-            </div>
+            <LinkLogo />
           </div>
         </div>
       </div>
