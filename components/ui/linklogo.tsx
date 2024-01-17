@@ -34,7 +34,7 @@ export const LinkLogoLarge = () => {
           </div>
           <div>
             <Link href={images.href}>
-              <p className="small-regular lg:paragraph-regular mt-2 text-grey-700">
+              <p className="small-regular lg:paragraph-regular mt-2 text-grey-700 hover:underline">
                 {images.label}
               </p>
             </Link>
