@@ -1,6 +1,6 @@
 import React from "react";
 import Button from "../ui/button";
-import LinkLogo from "../ui/linklogo";
+import { LinkLogoLarge, LinkLogoSmall } from "../ui/linklogo";
 
 const Contact = () => {
   return (
@@ -15,61 +15,61 @@ const Contact = () => {
           CONTACT
         </h1>
       </div>
-      <div className="flex-between max-w-[1440px]">
+      <div className="md:flex-between mt-5 max-w-[1024px] gap-5">
         <div>
-          <div className="flex-start mx-auto max-w-[1440px] flex-col gap-20 2xl:mx-auto">
+          <div className="flex-start mx-auto max-w-[1024px] flex-col space-y-10 md:space-y-20 2xl:mx-auto ">
             <div className="flex w-full max-w-[1060px] items-start justify-between">
               <div className="max-w-[660px]">
-                <p className="heading4 md:heading3 lg:heading2 text-black">
+                <p className="heading3 md:heading3 lg:heading2 text-black">
                   Have an awesome idea? Lets bring it to life.
                 </p>
               </div>
             </div>
 
-            <div className="flex w-full max-w-[1060px] items-start justify-between">
-              <div className="flex-between max-w-[660px] gap-5">
-                <input
-                  placeholder="Your Name"
-                  className="border-b border-b-black p-4"
-                />
-                <input
-                  placeholder="Your Email"
-                  className="border-b border-b-black p-4"
-                />
-              </div>
-            </div>
+            <form className="xs:flex-between gap-4 xs:space-x-3">
+              <input
+                type="text"
+                placeholder="Your Name"
+                className="w-full max-w-64 border-b border-b-black py-4 text-start"
+              />
+              <input
+                type="text"
+                placeholder="Your Email"
+                className="w-full max-w-64 border-b border-b-black py-4 text-start"
+              />
+            </form>
 
-            <div className="flex w-full max-w-[1060px] items-start justify-between">
-              <div className="flex-between max-w-[660px] gap-5">
-                <input
-                  placeholder="Your Message"
-                  className="border-b border-b-black p-4"
-                />
-              </div>
-            </div>
+            <form className="flex-between space-y-10">
+              <input
+                type="text"
+                placeholder="Your Message"
+                className="w-full max-w-64 border-b border-b-black py-4 pb-24 text-start"
+              />
+            </form>
           </div>
+
+          <Button
+            label="Send Message"
+            variant="send-message-btn"
+            type="button"
+            href="/"
+          />
         </div>
 
-        <div className="flex-start flex-col gap-24">
+        <div className="flex-start mt-20 flex-col gap-8 md:mt-0 md:gap-24">
           <div className="flex-start max-w-[286px] flex-col">
-            <p className="base-bold text-black">Contact Details</p>
-            <p className="paragraph-regular mt-2 text-grey-700">
+            <p className="heading4 lg:base-bold text-black">Contact Details</p>
+            <p className="small-regular lg:paragraph-regular mt-2 text-grey-700">
               clash.parwesh@gmail.com
             </p>
           </div>
           <div className="flex-start max-w-[286px] flex-col gap-4">
-            <p className="base-bold text-black">Digital Link</p>
-            <LinkLogo />
+            <p className="heading4 lg:base-bold text-black">Digital Link</p>
+            <LinkLogoSmall />
+            <LinkLogoLarge />
           </div>
         </div>
       </div>
-
-      <Button
-        label="Send Message"
-        variant="send-message-btn"
-        type="button"
-        href="/"
-      />
     </section>
   );
 };

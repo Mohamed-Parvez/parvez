@@ -18,7 +18,7 @@ export default function RootLayout({
     <html lang="en">
       <body>
         <Nav />
-        <main className="mx-5 mt-[110px] min-h-screen font-poppins md:mx-10 xl:mx-20">
+        <main className="mx-5 mt-[110px] min-h-screen font-poppins md:mx-10 xl:mx-28">
           {children}
         </main>
         <Footer />
