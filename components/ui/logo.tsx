@@ -5,7 +5,7 @@ import React from "react";
 const Logo = () => {
   return (
     <>
-      <Link href={"#hero"}>
+      <Link href={"/"}>
         <Image
           className="pt-[15px]"
           src={"/assets/images/logo.svg"}
