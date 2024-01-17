@@ -56,6 +56,9 @@ const config: Config = {
         },
         transparent: "transparent",
       },
+      backgroundImage: {
+        "project-bg": "url('/assets/images/project-bg.png')"
+      }
     },
   },
   plugins: [],

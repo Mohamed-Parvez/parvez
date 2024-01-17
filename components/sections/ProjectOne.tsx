@@ -17,7 +17,7 @@ const ProjectOne = () => {
 
         <div
           className="aspect-square h-auto max-h-[800px] w-full max-w-[1200px] rounded-xl
-          shadow-sm ring-1 ring-grey-700"
+          bg-project-bg bg-cover shadow-sm ring-1 ring-grey-700"
         ></div>
       </div>
 
