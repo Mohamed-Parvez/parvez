@@ -39,13 +39,18 @@ export const LinkLogoImages = [
     label: "Github",
     key: "github",
     src: "/assets/images/github.svg",
-    href: "",
+    href: "https://github.com/Mohamed-Parvez",
   },
   {
     label: "LinkedIn",
     key: "linkedin",
     src: "/assets/images/linkedin.svg",
-    href: "",
+    href: "https://www.linkedin.com/in/mohamed-parvez-1b9a1a290/",
   },
-  { label: "X.com", key: "x", src: "/assets/images/x.svg", href: "" },
+  {
+    label: "X.com",
+    key: "x",
+    src: "/assets/images/x.svg",
+    href: "https://twitter.com/Mohamed_parvezz",
+  },
 ];
