@@ -1,25 +1,28 @@
 import Image from "next/image";
 import React from "react";
 import Button from "../ui/button";
+import Link from "next/link";
 
 const Hero = () => {
   return (
     <div id="hero" className="flex-center mt-16 flex-col">
-      <div
-        className="flex-center h-auto w-auto cursor-pointer gap-1.5
+      <Link href={"#projects"}>
+        <div
+          className="flex-center h-auto w-auto cursor-pointer gap-1.5
         rounded-full border border-grey px-5 py-2 transition-colors duration-300 ease-in-out
       hover:border-grey-700/20 hover:bg-grey/30 lg:w-[420px]"
-      >
-        <p className="small-regular text-center text-grey-700">
-          Project Ideas and Products Developed by Parvez
-        </p>
-        <Image
-          src={"/assets/icons/arrow.svg"}
-          alt="arrow"
-          height={15}
-          width={15}
-        />
-      </div>
+        >
+          <p className="small-regular text-center text-grey-700">
+            Project Ideas and Products Developed by Parvez
+          </p>
+          <Image
+            src={"/assets/icons/arrow.svg"}
+            alt="arrow"
+            height={15}
+            width={15}
+          />
+        </div>
+      </Link>
 
       <div className="mt-4 flex-col items-center justify-center lg:mt-8">
         <h1
