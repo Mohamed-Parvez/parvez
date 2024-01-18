@@ -31,14 +31,14 @@ const ProjectOne = () => {
       </div>
 
       <div className="flex-start mt-5 gap-3">
-        <div className="rounded-full px-4 py-[7px] shadow-sm ring-1 ring-grey-700 xs:px-5 xs:py-[9px] md:px-6 md:py-[11px]">
-          <p className="text-[12px] font-normal text-grey-700 xs:text-[13px] md:text-[15px]">
+        <div className="rounded-full px-[12px] py-[7px] shadow-sm ring-1 ring-grey-700 xs:px-5 xs:py-[9px] md:px-6 md:py-[11px]">
+          <p className="text-[10px] font-normal text-grey-700 xs:text-[13px] md:text-[15px]">
             2024
           </p>
         </div>
-        <div className="rounded-full px-4 py-[7px] shadow-sm ring-1 ring-grey-700 xs:px-5  xs:py-[9px] md:px-6 md:py-[11px]">
-          <p className="text-[12px] font-normal text-grey-700 xs:text-[13px] md:text-[15px]">
-            Parvez Portfolio Website
+        <div className="rounded-full px-[12px] py-[7px] shadow-sm ring-1 ring-grey-700 xs:px-5  xs:py-[9px] md:px-6 md:py-[11px]">
+          <p className="text-[10px] font-normal text-grey-700 xs:text-[13px] md:text-[15px]">
+            NextJs Typescript Tailwind PostgreSql
           </p>
         </div>
       </div>
