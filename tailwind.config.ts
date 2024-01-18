@@ -57,10 +57,13 @@ const config: Config = {
         transparent: "transparent",
       },
       backgroundImage: {
-        "project-bg": "url('/assets/images/project-bg.png')"
-      }
+        "project-bg": "url('/assets/images/project-bg.png')",
+      },
     },
   },
-  plugins: [],
+  corePlugins: {
+    aspectRatio: false,
+  },
+  plugins: [require("@tailwindcss/aspect-ratio")],
 };
 export default config;

@@ -1,3 +1,4 @@
+import Image from "next/image";
 import React from "react";
 
 const ProjectOne = () => {
@@ -16,9 +17,17 @@ const ProjectOne = () => {
         </div>
 
         <div
-          className="aspect-square h-auto max-h-[800px] w-full max-w-[1200px] rounded-xl
-          bg-project-bg bg-cover shadow-sm ring-1 ring-grey-700"
-        ></div>
+          className="flex-center aspect-h-10 aspect-w-15 h-auto w-full overflow-hidden
+          rounded-xl bg-project-bg bg-cover shadow-sm ring-1 ring-grey-700 md:rounded-2xl lg:rounded-3xl"
+        >
+          <Image
+            className="px-6 py-8 xs:px-[34px] xs:py-[54px] md:px-[38px] md:py-[72px] lg:px-[68px] lg:py-[88px]"
+            src={"/assets/images/project.png"}
+            alt="project"
+            height={616}
+            width={1364}
+          />
+        </div>
       </div>
 
       <div className="flex-start mt-5 gap-3">

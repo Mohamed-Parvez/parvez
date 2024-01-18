@@ -11,6 +11,7 @@
   "dependencies": {
     "@next/font": "^14.0.4",
     "@studio-freight/react-lenis": "^0.0.43",
+    "@tailwindcss/aspect-ratio": "^0.4.2",
     "eslint-config-prettier": "^9.1.0",
     "eslint-config-standard": "^17.1.0",
     "eslint-plugin-tailwindcss": "^3.13.0",
