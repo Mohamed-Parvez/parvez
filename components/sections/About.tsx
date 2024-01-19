@@ -1,3 +1,4 @@
+import Image from "next/image";
 import React from "react";
 
 const About = () => {
@@ -19,12 +20,16 @@ const About = () => {
 
       <div
         className="flex-center md:flex-start 
-      h-auto max-w-[1440px] flex-col gap-6 md:flex-row md:gap-12"
+      h-auto w-full max-w-[1440px] flex-col gap-6 md:flex-row md:gap-12"
       >
-        <div
-          className="aspect-square h-auto max-h-[800px] w-full max-w-[768px] rounded-md
-          shadow-sm ring-1 ring-grey-700 md:h-[450px] md:w-[400px] lg:h-[550px] lg:w-[500px]"
-        ></div>
+        <div className="aspect-h-9 aspect-w-7 h-auto w-full md:aspect-h-9 md:aspect-w-16">
+          <Image
+            src={"/assets/images/profile.jpg"}
+            alt="profile"
+            height={800}
+            width={600}
+          />
+        </div>
 
         <div className="flex-start h-auto w-auto max-w-[768px] flex-col gap-5">
           <p className="heading3 md:heading3 lg:heading2 text-black">

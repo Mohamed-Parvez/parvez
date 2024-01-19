@@ -58,6 +58,7 @@ const config: Config = {
       },
       backgroundImage: {
         "project-bg": "url('/assets/images/project-bg.png')",
+        "profile": "url('/assets/images/profile.jpg')",
       },
     },
   },
