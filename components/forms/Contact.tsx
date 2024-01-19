@@ -17,7 +17,7 @@ const Contact = () => {
       </div>
       <div className="md:flex-between mt-5 max-w-[1024px] gap-5">
         <div>
-          <div className="flex-start mx-auto  max-w-[1024px] flex-col space-y-10 md:space-y-20 2xl:mx-auto ">
+          <div className="flex-start mx-auto max-w-[1024px] flex-col space-y-10 md:space-y-20 2xl:mx-auto ">
             <div className="flex w-full max-w-[1060px] items-start justify-between">
               <div className="max-w-[660px]">
                 <p className="heading3 md:heading3 lg:heading2 text-black">
@@ -26,7 +26,7 @@ const Contact = () => {
               </div>
             </div>
 
-            <form className="xs:flex-between w-full max-w-[736px] gap-4 xs:space-x-3">
+            <form className="xs:flex-between w-full max-w-[736px] gap-4 space-y-10 xs:space-x-3 xs:space-y-0">
               <div className="group relative z-0 w-full">
                 <input
                   type="text"
