@@ -12,7 +12,7 @@ export const LinkLogoSmall = () => {
             <Image src={images.src} alt={images.label} height={14} width={14} />
           </div>
           <div>
-            <Link href={images.href}>
+            <Link href={images.href} rel="noopener noreferrer" target="_blank">
               <p className="small-regular lg:paragraph-regular hover-underline-animation mt-2 text-grey-700">
                 {images.label}
               </p>
@@ -33,7 +33,7 @@ export const LinkLogoLarge = () => {
             <Image src={images.src} alt={images.label} height={20} width={20} />
           </div>
           <div>
-            <Link href={images.href}>
+            <Link href={images.href} rel="noopener noreferrer" target="_blank">
               <p className="small-regular lg:paragraph-regular hover-underline-animation mt-2 text-grey-700">
                 {images.label}
               </p>

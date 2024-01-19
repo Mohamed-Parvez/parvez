@@ -1,6 +1,6 @@
 import Image from "next/image";
 import React from "react";
-import Button from "../ui/button";
+import { ButtonPopup } from "../ui/button";
 import Link from "next/link";
 
 const Hero = () => {
@@ -46,8 +46,18 @@ const Hero = () => {
       </div>
 
       <div className="flex-center mt-4 h-auto w-auto gap-3 lg:mt-8">
-        <Button label="Resume" variant={"btn-resume"} type={"button"} href="" />
-        <Button label="Github" variant={"btn-github"} type={"button"} href="" />
+        <ButtonPopup
+          label="Resume"
+          variant={"btn-resume"}
+          type={"button"}
+          href="https://github.com/Mohamed-Parvez"
+        />
+        <ButtonPopup
+          label="Github"
+          variant={"btn-github"}
+          type={"button"}
+          href="https://github.com/Mohamed-Parvez"
+        />
       </div>
     </div>
   );

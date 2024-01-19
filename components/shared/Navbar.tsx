@@ -1,4 +1,4 @@
-import Button from "../ui/button";
+import { Button } from "../ui/button";
 import Logo from "../ui/logo";
 import Navlist from "../ui/navlist";
 
