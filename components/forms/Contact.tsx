@@ -17,7 +17,7 @@ const Contact = () => {
       </div>
       <div className="md:flex-between mt-5 max-w-[1024px] gap-5">
         <div>
-          <div className="flex-start mx-auto max-w-[1024px] flex-col space-y-10 md:space-y-20 2xl:mx-auto ">
+          <div className="flex-start mx-auto  max-w-[1024px] flex-col space-y-10 md:space-y-20 2xl:mx-auto ">
             <div className="flex w-full max-w-[1060px] items-start justify-between">
               <div className="max-w-[660px]">
                 <p className="heading3 md:heading3 lg:heading2 text-black">
@@ -26,24 +26,24 @@ const Contact = () => {
               </div>
             </div>
 
-            <form className="xs:flex-between gap-4 xs:space-x-3">
+            <form className="xs:flex-between w-full max-w-[736px] gap-4 xs:space-x-3">
               <input
                 type="text"
                 placeholder="Your Name"
-                className="w-full max-w-64 border-b border-b-black py-4 text-start"
+                className="w-full max-w-[356px] border-b border-b-black py-4 text-start"
               />
               <input
                 type="text"
                 placeholder="Your Email"
-                className="w-full max-w-64 border-b border-b-black py-4 text-start"
+                className="w-full max-w-[356px] border-b border-b-black py-4 text-start"
               />
             </form>
 
-            <form className="flex-between space-y-10">
+            <form className="flex-between w-full max-w-[744px] space-y-10">
               <input
                 type="text"
                 placeholder="Your Message"
-                className="w-full max-w-64 border-b border-b-black py-4 pb-24 text-start"
+                className="w-full max-w-[744px] border-b border-b-black py-4 pb-24 text-start"
               />
             </form>
           </div>
