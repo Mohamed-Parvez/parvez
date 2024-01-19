@@ -27,24 +27,61 @@ const Contact = () => {
             </div>
 
             <form className="xs:flex-between w-full max-w-[736px] gap-4 xs:space-x-3">
-              <input
-                type="text"
-                placeholder="Your Name"
-                className="w-full max-w-[356px] border-b border-b-black py-4 text-start"
-              />
-              <input
-                type="text"
-                placeholder="Your Email"
-                className="w-full max-w-[356px] border-b border-b-black py-4 text-start"
-              />
+              <div className="group relative z-0 w-full">
+                <input
+                  type="text"
+                  className="peer block w-full max-w-[356px] appearance-none border-0 border-b border-b-black bg-transparent 
+                  px-0 py-4 text-start focus:outline-none focus:ring-0"
+                  placeholder=""
+                  required
+                />
+                <label
+                  className="absolute top-3 -z-10 origin-[0] -translate-y-6 scale-75 text-grey-100
+                duration-300 peer-placeholder-shown:translate-y-0 peer-placeholder-shown:scale-100 peer-focus:start-0 
+                peer-focus:-translate-y-6 peer-focus:scale-75 peer-focus:font-medium
+                rtl:peer-focus:left-auto rtl:peer-focus:translate-x-1/4"
+                >
+                  Your Name
+                </label>
+              </div>
+
+              <div className="group relative z-0 w-full">
+                <input
+                  type="text"
+                  className="peer block w-full max-w-[356px] appearance-none border-0 border-b border-b-black bg-transparent 
+                  px-0 py-4 text-start focus:outline-none focus:ring-0"
+                  placeholder=""
+                  required
+                />
+                <label
+                  className="absolute top-3 -z-10 origin-[0] -translate-y-6 scale-75 text-grey-100
+                duration-300 peer-placeholder-shown:translate-y-0 peer-placeholder-shown:scale-100 peer-focus:start-0 
+                peer-focus:-translate-y-6 peer-focus:scale-75 peer-focus:font-medium
+                rtl:peer-focus:left-auto rtl:peer-focus:translate-x-1/4"
+                >
+                  Your Email
+                </label>
+              </div>
             </form>
 
             <form className="flex-between w-full max-w-[744px] space-y-10">
-              <input
-                type="text"
-                placeholder="Your Message"
-                className="w-full max-w-[744px] border-b border-b-black py-4 pb-24 text-start"
-              />
+              <div className="group relative z-0 w-full">
+                <input
+                  type="text"
+                  className="peer block w-full max-w-[744px] appearance-none border-0 border-b border-b-black bg-transparent 
+                  px-0 py-4 pb-24 text-start focus:outline-none focus:ring-0"
+                  placeholder=""
+                  required
+                />
+                <label
+                  className="absolute top-3 -z-10 origin-[0] -translate-y-6 scale-75 text-grey-100
+                duration-300 peer-placeholder-shown:translate-y-0 peer-placeholder-shown:scale-100 peer-focus:start-0 
+                peer-focus:-translate-y-6 peer-focus:scale-75 peer-focus:font-medium
+                rtl:peer-focus:left-auto rtl:peer-focus:translate-x-1/4"
+                >
+                  Your Message
+                </label>
+              </div>
             </form>
           </div>
 
