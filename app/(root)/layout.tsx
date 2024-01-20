@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
-import "../styles/globals.css";
-import Nav from "../components/shared/Navbar";
+import "../../styles/globals.css";
+import Nav from "@/components/shared/Navbar";
 import React from "react";
 import Footer from "@/components/shared/Footer";
 import SmoothScrolling from "@/components/ui/smoothscrolling";
