@@ -1,4 +1,6 @@
 import React from "react";
+import "../../styles/globals.css";
+import Footer from "@/components/shared/Footer";
 
 export default function ContactLayout({
   children,
@@ -9,6 +11,7 @@ export default function ContactLayout({
     <html>
       <body>
         <main>{children}</main>
+        <Footer />
       </body>
     </html>
   );
