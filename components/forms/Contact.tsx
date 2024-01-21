@@ -101,7 +101,7 @@ const Contact = () => {
             </p>
           </div>
           <div className="flex-start max-w-[286px] flex-col gap-4">
-            <p className="heading4 lg:base-bold text-black">Digital Link</p>
+            <p className="heading4 lg:base-bold text-black">Social Links</p>
             <LinkLogoSmall />
             <LinkLogoLarge />
           </div>
