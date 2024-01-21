@@ -38,7 +38,7 @@ const ProjectOne = () => {
         </div>
         <div className="rounded-full px-[12px] py-[7px] shadow-sm ring-1 ring-grey-700 xs:px-5  xs:py-[9px] md:px-6 md:py-[11px]">
           <p className="text-[10px] font-normal text-grey-700 xs:text-[13px] md:text-[15px]">
-            NextJs Typescript Tailwind PostgreSql
+            NextJs Typescript Tailwindcss
           </p>
         </div>
       </div>
