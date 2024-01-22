@@ -40,8 +40,8 @@ const About = () => {
             Developer based in TamilNadu, India.
           </p>
           <p className="body-text lg:paragraph-regular text-gray-800">
-            I specialize in crafting elevated, intuitive, and minimalistic
-            designs for startups and small businesses to help them stand out in
+            I create and develop modern applications which could be minimalistic
+            and performance optimized for businesses to help them stand out in
             the digital landscape with a powerful impact.
           </p>
           <p className="body-text lg:paragraph-regular text-gray-800">
