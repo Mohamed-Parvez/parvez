@@ -26,8 +26,8 @@ const About = () => {
           <Image
             src={"/assets/images/profile.jpg"}
             alt="profile"
-            height={800}
-            width={600}
+            height={4096}
+            width={2297}
           />
         </div>
 
