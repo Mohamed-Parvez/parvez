@@ -4,7 +4,7 @@ import React from "react";
 const ProjectOne = () => {
   return (
     <section>
-      <div className="flex-center mx-auto mt-28 max-w-[1440px] flex-col gap-4 md:mt-40 lg:gap-8 2xl:mx-auto">
+      <div className="flex-center mx-auto mt-40 max-w-[1440px] flex-col gap-4 lg:gap-8 2xl:mx-auto">
         <div>
           <h1
             className="light-primary-gradient 
