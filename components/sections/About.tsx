@@ -5,7 +5,7 @@ const About = () => {
   return (
     <section
       id="about"
-      className="flex-center mx-auto mt-20 max-w-[1440px] flex-col gap-4 md:mt-40 lg:gap-8 2xl:mx-auto"
+      className="flex-center mx-auto mt-28 max-w-[1440px] flex-col gap-4 md:mt-40 lg:gap-8 2xl:mx-auto"
     >
       <div>
         <h1

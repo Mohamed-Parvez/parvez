@@ -4,7 +4,7 @@ import { LinkLogoLarge, LinkLogoSmall } from "../ui/linklogo";
 
 const Contact = () => {
   return (
-    <section id="contact" className="mb-40 mt-12 md:mt-40">
+    <section id="contact" className="mb-40 mt-28 md:mt-40">
       <div>
         <h1
           className="light-primary-gradient 
