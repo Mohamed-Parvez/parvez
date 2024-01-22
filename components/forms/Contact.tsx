@@ -21,7 +21,7 @@ const Contact = () => {
             <div className="flex w-full max-w-[1060px] items-start justify-between">
               <div className="max-w-[660px]">
                 <p className="heading3 md:heading3 lg:heading2 text-black">
-                  Have an awesome idea? Lets bring it to life.
+                  Have an awesome idea? Lets bring it to production.
                 </p>
               </div>
             </div>
