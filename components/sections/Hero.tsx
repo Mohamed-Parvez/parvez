@@ -5,7 +5,7 @@ import Link from "next/link";
 
 const Hero = () => {
   return (
-    <section id="hero" className="flex-center mt-32 flex-col md:mt-20">
+    <section id="hero" className="flex-center mt-36 flex-col md:mt-20">
       <Link href={"#projects"}>
         <div
           className="flex-center h-auto w-auto cursor-pointer gap-1.5
