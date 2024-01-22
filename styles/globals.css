@@ -77,6 +77,10 @@
     @apply font-bold sm:text-[32px] sm:leading-[33.6px] text-[28px] leading-[40px] tracking-[-0.25%];
   }
 
+  .heading3_2 {
+    @apply font-bold sm:text-[40px] sm:leading-[33.6px] text-[36px] leading-[40px] tracking-[-0.25%];
+  }
+
   .heading4 {
     @apply font-semibold text-[20px] leading-[26px] tracking-[0.25%];
   }

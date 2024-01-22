@@ -5,7 +5,7 @@ import Link from "next/link";
 
 const Hero = () => {
   return (
-    <div id="hero" className="flex-center mt-16 flex-col">
+    <section id="hero" className="flex-center mt-20 flex-col">
       <Link href={"#projects"}>
         <div
           className="flex-center h-auto w-auto cursor-pointer gap-1.5
@@ -24,9 +24,9 @@ const Hero = () => {
         </div>
       </Link>
 
-      <div className="mt-4 flex-col items-center justify-center lg:mt-8">
+      <div className="mt-8 flex-col items-center justify-center">
         <h1
-          className="heading3 xs:heading2 sm:heading1 gap-2 text-center
+          className="heading3_2 xs:heading2 sm:heading1 gap-2 text-center
           xl:text-7xl xl:leading-[90px]"
         >
           HEY, HI THERE !
@@ -34,7 +34,7 @@ const Hero = () => {
           <span className="primary-gradient">I AM PARVEZ</span>
         </h1>
 
-        <div className="mt-4 h-auto w-auto max-w-[380px] md:max-w-[500px] lg:mt-8">
+        <div className="mt-6 h-auto w-auto max-w-[380px] md:max-w-[500px] lg:mt-8">
           <h2
             className="body-medium lg:paragraph-regular mt-4 text-center
            text-grey-700 md:text-lg lg:mt-8"
@@ -45,7 +45,7 @@ const Hero = () => {
         </div>
       </div>
 
-      <div className="flex-center mt-4 h-auto w-auto gap-3 lg:mt-8">
+      <div className="flex-center mt-8 h-auto w-auto gap-3">
         <ButtonPopup
           label="Resume"
           variant={"btn-resume"}
@@ -59,7 +59,7 @@ const Hero = () => {
           href="https://github.com/Mohamed-Parvez"
         />
       </div>
-    </div>
+    </section>
   );
 };
 
