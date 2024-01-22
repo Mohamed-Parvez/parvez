@@ -5,7 +5,7 @@ import Link from "next/link";
 
 const Hero = () => {
   return (
-    <section id="hero" className="flex-center mt-28 flex-col md:mt-20">
+    <section id="hero" className="flex-center mt-32 flex-col md:mt-20">
       <Link href={"#projects"}>
         <div
           className="flex-center h-auto w-auto cursor-pointer gap-1.5
@@ -24,7 +24,7 @@ const Hero = () => {
         </div>
       </Link>
 
-      <div className="mt-11 flex-col items-center justify-center md:mt-8">
+      <div className="mt-12 flex-col items-center justify-center md:mt-8">
         <h1
           className="heading3_2 xs:heading2 sm:heading1 gap-2 text-center
           xl:text-7xl xl:leading-[90px]"
@@ -34,7 +34,7 @@ const Hero = () => {
           <span className="primary-gradient">I AM PARVEZ</span>
         </h1>
 
-        <div className="mt-11 h-auto w-auto max-w-[380px] md:mt-8 md:max-w-[500px] lg:mt-8">
+        <div className="mt-12 h-auto w-auto max-w-[380px] md:mt-8 md:max-w-[500px] lg:mt-8">
           <h2
             className="body-medium lg:paragraph-regular mt-4 text-center
            text-grey-700 md:text-lg lg:mt-8"
