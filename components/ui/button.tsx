@@ -1,8 +1,13 @@
 import React from "react";
-import { ButtonProps } from "@/types";
+import { ButtonProps, ButtonPopupProps, SubmitButtonProps } from "@/types";
 import Link from "next/link";
 
-export const ButtonPopup = ({ label, type, variant, href }: ButtonProps) => {
+export const ButtonPopup = ({
+  label,
+  type,
+  variant,
+  href,
+}: ButtonPopupProps) => {
   return (
     <Link href={href} rel="noopener noreferrer" target="_blank">
       <button type={type} className={`${variant}`}>
@@ -12,12 +17,25 @@ export const ButtonPopup = ({ label, type, variant, href }: ButtonProps) => {
   );
 };
 
-export const Button = ({ label, type, variant, href }: ButtonProps) => {
+export const Button = ({ href, label, variant, type }: ButtonProps) => {
   return (
     <Link href={href}>
-      <button type={type} className={`${variant}`}>
+      <button type={"button"} className={`${variant}`}>
         {label}
       </button>
     </Link>
+  );
+};
+
+export const SubmitButton = ({
+  type,
+  label,
+  variant,
+  disabled,
+}: SubmitButtonProps) => {
+  return (
+    <button type={type} className={`${variant}`} disabled={disabled}>
+      {label}
+    </button>
   );
 };
