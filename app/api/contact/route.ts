@@ -11,7 +11,7 @@ export async function POST(req: NextRequest) {
     const data = await resend.emails.send({
       from: "Parvez <parvez.me@resend.dev>",
       to: "clash.parwesh@gmail.com",
-      subject: `Thanks for Contact Us`,
+      subject: `Form sent by ${name}`,
       react: MessageUsEmail({ name, email, message }),
     });
     return NextResponse.json(data);
