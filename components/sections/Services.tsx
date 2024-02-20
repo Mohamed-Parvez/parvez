@@ -32,7 +32,7 @@ const Services = () => {
             purposes.
           </p>
           <p className="body-text lg:paragraph-regular text-gray-800">
-            I use PostgreSql as a nosql database along with Prisma as a ORM, for
+            I use PostgreSql as a sql database along with Prisma as a ORM, for
             everything i use to work with Typescript for type safety and i use
             docker and Vercel for deployment.
           </p>
