@@ -24,7 +24,6 @@ export const SkillsImagesFirst = [
 
 export const SkillsImagesSecond = [
   { label: "Nextjs", key: "nextjs", src: "/assets/images/nextjs.svg" },
-  { label: "Python", key: "python", src: "/assets/images/python.png" },
   { label: "Docker", key: "docker", src: "/assets/images/docker.svg" },
   {
     label: "Postgresql",
