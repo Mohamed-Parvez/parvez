@@ -5,8 +5,8 @@ const Footer = () => {
   return (
     <footer className="flex-center">
       <div
-        className="flex-between w-full max-w-[1200px]
-       gap-12 bg-white p-3 md:p-6 2xl:mx-auto"
+        className="flex-between w-full max-w-[1440px] gap-12 bg-white
+        p-3 md:p-6 2xl:mx-auto"
       >
         <div className="flex-between gap-1">
           <Image
@@ -15,7 +15,9 @@ const Footer = () => {
             height={16}
             width={16}
           />
-          <p className="small-bold mt-[2px] md:text-[20px] md:font-semibold">2024</p>
+          <p className="small-bold mt-[2px] md:text-[20px] md:font-semibold">
+            2024
+          </p>
         </div>
         <div>
           <p className="small-regular md:body-regular text-gray-700">
