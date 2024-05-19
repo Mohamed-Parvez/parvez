@@ -7,8 +7,8 @@ import SmoothScrolling from "@/components/ui/smoothscrolling";
 import { Toaster } from "react-hot-toast";
 
 export const metadata: Metadata = {
-  title: "Parwavz",
-  description: "Parwavz portfolio website",
+  title: "Parvez",
+  description: "Parvez's portfolio website",
 };
 
 export default function RootLayout({
