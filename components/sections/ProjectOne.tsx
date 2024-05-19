@@ -17,15 +17,15 @@ const ProjectOne = () => {
         </div>
 
         <div
-          className="flex-center aspect-h-10 aspect-w-15 h-auto w-full overflow-hidden
-          rounded-xl bg-project-bg bg-cover shadow-sm ring-1 ring-grey-700 md:rounded-2xl lg:rounded-3xl"
+          className="flex-center aspect-h-12 aspect-w-16 h-full w-full overflow-hidden rounded-xl
+          bg-project-bg bg-cover object-cover shadow-sm ring-1 ring-grey-700 md:rounded-2xl lg:rounded-3xl"
         >
           <Image
             className="px-6 py-8 xs:px-[34px] xs:py-[54px] md:px-[38px] md:py-[72px] lg:px-[68px] lg:py-[88px]"
             src={"/assets/images/project.png"}
             alt="project"
-            height={616}
-            width={1364}
+            height={1502}
+            width={2460}
           />
         </div>
 
