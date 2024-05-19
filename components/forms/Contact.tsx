@@ -52,7 +52,7 @@ const Contact = () => {
           CONTACT
         </h1>
       </div>
-      <div className="md:flex-between mt-5 max-w-[1024px] gap-5">
+      <div className="md:flex-between mx-auto mt-5 max-w-[1024px] gap-5">
         <form onSubmit={handleSubmit(onSubmit)}>
           <div className="flex-start mx-auto max-w-[1024px] flex-col space-y-10 md:space-y-20 2xl:mx-auto ">
             <div className="flex w-full max-w-[1060px] items-start justify-between">
