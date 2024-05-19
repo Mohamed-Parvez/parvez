@@ -34,7 +34,7 @@ const Hero = () => {
           <span className="primary-gradient">I AM PARVEZ</span>
         </h1>
 
-        <div className="mt-12 h-auto w-auto max-w-[380px] md:mt-8 md:max-w-[500px] lg:mt-8">
+        <div className="mt-12 h-auto w-auto max-w-[380px] sm:max-w-[460px] md:mt-8 md:max-w-[500px] lg:mt-8">
           <h2
             className="body-medium lg:paragraph-regular mt-4 text-center
            text-grey-700 md:text-lg lg:mt-8"
