@@ -4,7 +4,7 @@ import React from "react";
 const ProjectOne = () => {
   return (
     <section>
-      <div className="flex-center mx-auto mt-40 max-w-[1440px] flex-col gap-4 lg:gap-8 2xl:mx-auto">
+      <div className="mx-auto mt-40 max-w-[1440px] flex-col gap-4 lg:gap-8">
         <div>
           <h1
             className="light-primary-gradient 
@@ -28,26 +28,26 @@ const ProjectOne = () => {
             width={1364}
           />
         </div>
-      </div>
 
-      <div className="flex-start mt-5 gap-3">
-        <div className="rounded-full px-[12px] py-[7px] shadow-sm ring-1 ring-grey-700 xs:px-5 xs:py-[9px] md:px-6 md:py-[11px]">
-          <p className="text-[10px] font-normal text-grey-700 xs:text-[13px] md:text-[15px]">
-            2024
+        <div className="flex-start mt-5 gap-3">
+          <div className="rounded-full px-[12px] py-[7px] shadow-sm ring-1 ring-grey-700 xs:px-5 xs:py-[9px] md:px-6 md:py-[11px]">
+            <p className="text-[10px] font-normal text-grey-700 xs:text-[13px] md:text-[15px]">
+              2024
+            </p>
+          </div>
+          <div className="rounded-full px-[12px] py-[7px] shadow-sm ring-1 ring-grey-700 xs:px-5  xs:py-[9px] md:px-6 md:py-[11px]">
+            <p className="text-[10px] font-normal text-grey-700 xs:text-[13px] md:text-[15px]">
+              NextJs Typescript Tailwindcss
+            </p>
+          </div>
+        </div>
+
+        <div className="flex-start mt-3 flex-col space-y-1 md:space-y-3">
+          <p className="body-semibold md:heading3">PARVEZ PORTFOLIO WEBSITE</p>
+          <p className="small-regular md:base-regular text-grey-700">
+            Full stack Next.js
           </p>
         </div>
-        <div className="rounded-full px-[12px] py-[7px] shadow-sm ring-1 ring-grey-700 xs:px-5  xs:py-[9px] md:px-6 md:py-[11px]">
-          <p className="text-[10px] font-normal text-grey-700 xs:text-[13px] md:text-[15px]">
-            NextJs Typescript Tailwindcss
-          </p>
-        </div>
-      </div>
-
-      <div className="flex-start mt-3 flex-col space-y-1 md:space-y-3">
-        <p className="body-semibold md:heading3">PARVEZ PORTFOLIO WEBSITE</p>
-        <p className="small-regular md:base-regular text-grey-700">
-          Full stack Next.js
-        </p>
       </div>
     </section>
   );
