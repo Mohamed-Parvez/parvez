@@ -39,7 +39,7 @@ const Hero = () => {
             className="body-medium lg:paragraph-regular mt-4 text-center
            text-grey-700 md:text-lg lg:mt-8"
           >
-            Web Developer for over past 2 Years and made Unique Websites using
+            Web Developer for over past 1 Years and made Unique Websites using
             Advanced Web Tools
           </h2>
         </div>
