@@ -44,7 +44,7 @@ export const LinkLogoImages = [
     label: "LinkedIn",
     key: "linkedin",
     src: "/assets/images/linkedin.svg",
-    href: "https://www.linkedin.com/in/mohamed-parvez-1b9a1a290/",
+    href: "https://www.linkedin.com/in/parvezmohamed/",
   },
   {
     label: "X.com",
