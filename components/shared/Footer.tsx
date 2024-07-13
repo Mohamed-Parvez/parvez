@@ -5,8 +5,8 @@ const Footer = () => {
   return (
     <footer className="flex-center">
       <div
-        className="flex-between w-full max-w-[1440px] gap-12 bg-white
-        p-3 md:p-6 2xl:mx-auto"
+        className="flex-between mx-5 w-full max-w-[1440px] gap-12
+        bg-white py-4 md:mx-10 xl:mx-28"
       >
         <div className="flex-between gap-1">
           <Image
