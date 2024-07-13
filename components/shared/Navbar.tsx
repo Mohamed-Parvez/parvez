@@ -6,8 +6,8 @@ const Nav = () => {
   return (
     <nav className="flex-center">
       <div
-        className="flex-between fixed top-0 z-50 w-full 
-      max-w-screen-2xl bg-white p-3 2xl:mx-auto"
+        className="flex-between fixed top-0 z-50 w-full max-w-screen-2xl bg-white px-5 
+      py-3 md:px-10 xl:px-16 2xl:mx-auto"
       >
         <Logo />
         <div className="md:flex-between gap-7">
