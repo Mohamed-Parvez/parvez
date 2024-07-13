@@ -22,7 +22,7 @@ export default function RootLayout({
       <body>
         <Toaster position="bottom-center" />
         <Nav />
-        <main className="mx-5 mt-[110px] min-h-screen font-poppins md:mx-10 xl:mx-28">
+        <main className="mx-5 mt-[110px] min-h-screen font-poppins md:mx-10 md:mt-[126px] xl:mx-28">
           <SmoothScrolling>
             {children}
             <Analytics />
