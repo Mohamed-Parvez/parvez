@@ -50,7 +50,7 @@ const Hero = () => {
           label="Resume"
           variant={"btn-resume"}
           type={"button"}
-          href="https://res.cloudinary.com/dlwlrv6c4/image/upload/f_auto,q_auto/hxndnejgnhxci3ih0awp"
+          href="https://res.cloudinary.com/dlwlrv6c4/image/upload/f_auto,q_auto/bn94wjnkm4xphfkkyzyq"
         />
         <ButtonPopup
           label="Github"
