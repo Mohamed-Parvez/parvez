@@ -6,6 +6,7 @@ import Footer from "@/components/shared/Footer";
 import SmoothScrolling from "@/components/ui/smoothscrolling";
 import { Toaster } from "react-hot-toast";
 import { Analytics } from "@vercel/analytics/react";
+import { GeistSans } from "geist/font/sans";
 
 export const metadata: Metadata = {
   title: "Parvez",
@@ -19,10 +20,10 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body>
+      <body className={GeistSans.className}>
         <Toaster position="bottom-center" />
         <Nav />
-        <main className="mx-5 mt-[110px] min-h-screen font-poppins md:mx-10 md:mt-[126px] xl:mx-28">
+        <main className="mx-5 mt-[110px] min-h-screen md:mx-10 md:mt-[126px] xl:mx-28">
           <SmoothScrolling>
             {children}
             <Analytics />

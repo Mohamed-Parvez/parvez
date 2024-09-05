@@ -17,10 +17,6 @@ const config: Config = {
       "3xl": "1700px",
     },
     extend: {
-      fontFamily: {
-        poppins: ["Poppins", "sans-serif"],
-        inter: ["Inter", "sans-serif"],
-      },
       colors: {
         primary: {
           purple: "#8E24AA",
@@ -58,7 +54,7 @@ const config: Config = {
       },
       backgroundImage: {
         "project-bg": "url('/assets/images/project-bg.png')",
-        "profile": "url('/assets/images/profile.jpg')",
+        profile: "url('/assets/images/profile.jpg')",
       },
     },
   },
