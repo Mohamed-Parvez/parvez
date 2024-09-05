@@ -4,7 +4,7 @@ import React from "react";
 
 const ProjectTwo = () => {
   return (
-    <Link href={"https://www.propty.vercel.app"}>
+    <Link href={"https://propty.vercel.app"}>
       <div className="mx-auto mt-20 max-w-[1440px] flex-col gap-4 lg:gap-8">
         <div
           className="flex-center aspect-h-12 aspect-w-16 h-full w-full overflow-hidden rounded-xl
