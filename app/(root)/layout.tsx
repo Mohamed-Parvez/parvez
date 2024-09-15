@@ -20,12 +20,6 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <head>
-        <meta
-          name="google-adsense-account"
-          content="ca-pub-4320932080794022"
-        ></meta>
-      </head>
       <body className={GeistSans.className}>
         <Toaster position="bottom-center" />
         <Nav />
