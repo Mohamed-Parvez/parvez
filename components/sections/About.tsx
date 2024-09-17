@@ -22,9 +22,9 @@ const About = () => {
         className="flex-center md:flex-start 
       h-auto w-full max-w-[1440px] flex-col gap-6 md:flex-row md:gap-12"
       >
-        <div className="aspect-h-9 aspect-w-5 h-auto w-full md:aspect-h-10 md:aspect-w-16 md:h-full">
+        <div className="aspect-h-10 aspect-w-5 h-auto w-full md:aspect-h-12 md:aspect-w-16 md:h-full">
           <Image
-            src={"/assets/images/profile.jpg"}
+            src={"/assets/images/profile.png"}
             alt="profile"
             height={4096}
             width={2297}
